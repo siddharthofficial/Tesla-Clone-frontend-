@@ -51,20 +51,19 @@ i{
 .mid1{
     text-align: center;
     margin-top:4%;
+    color:black;
+
 }
-.mid1 h2, .firstBox h2 {
+.mid1 h2, .firstBox h2, .mid2 h2, .mid3 h2 {
     font-size: 3rem;
-    color: black;
     font-weight: 500;
 }
-.mid1 h4, .firstBox h4{
+.mid1 h4, .firstBox h4, .mid2 h4, .mid3 h4{
     font-size: 1.1rem;
-    color: black;
     font-weight: 500;
 }
-.mid1 p, .firstBox p{
+.mid1 p, .firstBox p, .mid2 p, .mid3 p {
     font-size: .7rem;
-    color: black;
     font-weight: 400;
 }
 .btns{
@@ -76,7 +75,7 @@ i{
    align-items: end;
    
 }
-button{
+.btns button{
     padding:5px 80px;
     margin:20px;
     font-weight: 400;
@@ -89,7 +88,7 @@ button{
     border:none;
 }
 .first{
-    background-color: white;
+    background-color: f4f4f4;
     color:black;
     border:none;
 }
@@ -100,12 +99,239 @@ button{
     background-image: url('secondimage.avif');
     background-repeat: no-repeat;
     background-size: cover;
-    display:flex;
-    justify-content: center;
+   
 
 }
 .firstBox{
-    margin-top:10%;
+    margin-top:5%;
     text-align: center;
+    height: 30%;
+}
+.btns2{
+    display: flex;
+    justify-content: center;
+    margin-top:20%;
+}
+.btns2 button, .btns3 button, .btns4 button, .btns6 button, .btns7 button,
+.btns8 button{
+    padding:5px 80px;
+    margin:20px;
+    font-weight: 400;
+    font-size:1rem;
+    cursor: pointer;
+    border-radius: 8%;
+}
+.thirdContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('image3.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid2{
+    text-align: center;
+    margin-top:4%;
+    
+}
+.btns3{
+    display: flex;
+    justify-content: center;
+    margin-top:27%;
+}
+.fourthContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('image4.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid3{
+    color:white;
+    text-align: center;
+    margin-top:10%;
+}
+.btns4{
+    display: flex;
+    justify-content: center;
+    margin-top:20%;
+}
+.fifthContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('image5.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid4{
+    text-align: center;
+    margin-top:10%;
+   
+}
+.btns5, .btns6,.btns7,.btns8, .btns9{
+    display: flex;
+    justify-content: center;
+    margin-top:20%;
+    
+}
+.btns5 button{
+        color:grey;
+        padding:8px 80px;
+        margin:20px;
+        font-weight: 600;
+        font-size:1rem;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 8%;
+}
+.btns5 .second{
+    border:2px solid rgb(56, 53, 53);
+}
+.btns5 .first{
+    border-top:2px solid rgb(56, 53, 53);
+}
+.sixthContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('img6.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid5{
+    text-align: center;
+    margin-top:10%;
+    color:white;
+}
+.mid5 h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.mid5 h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-color:white ;
+}
+.seventhContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('img7.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid6{
+    text-align: center;
+    margin-top:10%;
+    color:black;
+}
+.mid6 h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.mid6 h4{
+    font-size: 1.1rem;
+    font-weight: 300;}
+
+.eighthContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('img8.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid7{
+    text-align: center;
+    margin-top:7%;
+    color:black;
+}
+.mid7 h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.ninthContainer{
+    width:100vw;
+    height:100vh;
+    background-image: url('img9.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mid8{
+    text-align: center;
+    margin-top:10%;
+    color:black;
+}
+.mid8 h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.btns9 button{
+    padding:5px 80px;
+    margin:20px;
+    font-weight: 500;
+    font-size:1rem;
+    cursor: pointer;
+    border-radius: 8%;
+}
+.bottom{
+    background-color: black;
+    width:100vw;
+    height:57vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    /* padding-bottom: 2px; */
+}
+.bottom div{
+    margin:0.2%;
+    font-size: 0.8rem;
+    overflow-y: hidden;
+}
+.bottom .one{
+    margin-top: 5%;
+}
+.bottom p{  
+    font-size: 0.8rem;
+    overflow-y: hidden;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration-color:white;
+    margin-bottom:1%;
+}
+.bottomnav{
+    width:100vw;
+    height:10vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+
+
+}
+.bottomnav span{
+    /* border:2px solid pink; */
+    width:10%;
+    height:40%;
+    color:white;
+    font-size: .9rem;
+    padding-bottom:2px;
+    margin-top:17px;
+    margin-bottom:17px;
+    
 }
 
+#my{
+   text-align: center;
+    text-decoration: none;
+  background-color: red;
+    color: white;
+    font-weight: bold;
+    padding:1rem;
+    font-size: medium;
+}
+#my a{
+    text-decoration: none;
+    color:white;
+    cursor:pointer;
+    
+}
